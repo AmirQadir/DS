@@ -110,8 +110,10 @@ public class LL{
 		l1.insert(30);
 		l1.insert(40);
 		l1.insert(50);
-		
+		System.out.println("Before swapping element 30");
+		l1.toPrint();
 		l1.swap(30);
+		System.out.println("After swapping element 30");
 		l1.toPrint();
 	}
 
